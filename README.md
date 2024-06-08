@@ -1,7 +1,7 @@
 <h1 align="center"> Rolaco Stealer </h1> 
   <div align="center">
   <div>
-    <img  src="https://i.hizliresim.com/2hpgrgy.png">
+    <img  src="https://i.hizliresim.com/rytal0p.jpg">
   </div>
   </div> 
 
